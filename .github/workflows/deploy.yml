@@ -1,5 +1,6 @@
 name: Build and Deploy
 
+
 on:
   push:
     branches:
@@ -35,17 +36,17 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
-
-    - name: Install SSH Client
-      run: sudo apt-get install openssh-client -y
       
     - name: List directory contents
       run: |
         ls -l frontend/
-        ls -l frontend/dist/
+        ls frontend
+       
 
     - name: Copy files
-      run: cp -r dist/* /var/www/html/facetea2
-      working-directory: frontend
+      run: |
+        
+        cp -r dist/* /var/www/html/facetea2
+      
         
 
