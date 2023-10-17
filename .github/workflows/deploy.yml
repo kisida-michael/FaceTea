@@ -31,7 +31,8 @@ jobs:
         
     - name: Copy files
       run: |
-          cp -r dist/* /var/www/html/facetea2
+        cd frontend
+        cp -r dist/* /var/www/html/facetea2
 
    
 
