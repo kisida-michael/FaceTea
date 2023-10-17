@@ -24,14 +24,16 @@ jobs:
         cd frontend
         npm install
         npm run build
+    - name: List directory contents
+      run: |
+        ls -l frontend/
+        ls -l frontend/dist/
         
     - name: Copy files
       run: |
           cp -r dist/* /var/www/html/facetea2
 
-    - name: List all directories
-      run: |
-        find . -type d
+   
 
        
 
