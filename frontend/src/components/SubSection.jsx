@@ -73,7 +73,7 @@ const SubSection = ({ title, categories }) => {
                           </p>
                         </div>
                        
-                          {item.price && <p className="bg-primary w-min px-2 py-1">${item.price}</p>}
+                          {item.price && <p className="bg-primary w-min px-2 py-1 text-white">${item.price}</p>}
                         
                       </div>
                     </div>
