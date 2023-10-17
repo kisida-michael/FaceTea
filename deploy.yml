@@ -1,0 +1,59 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main  # Trigger this workflow on push to the main branch
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14  # Use Node.js 14.x
+
+    - name: Install Dependencies and Build
+      run: |
+        cd frontend
+        npm install
+        npm run build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Install SSH Client
+      run: sudo apt-get install openssh-client -y
+
+    - name: Copy Files via SSH
+      run: |
+        scp -r frontend/dist/* ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/html/facetea2
+      env:
+        VPS_HOST: ${{ secrets.VPS_HOST }}
+        VPS_USER: ${{ secrets.VPS_USER }}
+        VPS_KEY: ${{ secrets.VPS_KEY }}
+
+    - name: Set up SSH key
+      run: |
+        echo "$VPS_KEY" > private_key
+        chmod 600 private_key
+      env:
+        VPS_KEY: ${{ secrets.VPS_KEY }}
+
+    - name: Set correct permissions
+      run: |
+        ssh -i private_key $VPS_USER@$VPS_HOST "sudo chown -R www-data:www-data /var/www/html/facetea2"
+      env:
+        VPS_USER: ${{ secrets.VPS_USER }}
+        VPS_HOST: ${{ secrets.VPS_HOST }}
+
