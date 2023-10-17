@@ -7,7 +7,7 @@ on:
       - main  # Trigger this workflow on push to the main branch
 
 jobs:
-  build and deploy:
+  build_deploy:
     runs-on: ubuntu-latest
 
     steps:
