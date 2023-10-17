@@ -37,23 +37,6 @@ jobs:
 
     - name: Copy Files via SSH
       run: |
-        scp -r frontend/dist/* ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/html/facetea2
-      env:
-        VPS_HOST: ${{ secrets.VPS_HOST }}
-        VPS_USER: ${{ secrets.VPS_USER }}
-        VPS_KEY: ${{ secrets.VPS_KEY }}
-
-    - name: Set up SSH key
-      run: |
-        echo "$VPS_KEY" > private_key
-        chmod 600 private_key
-      env:
-        VPS_KEY: ${{ secrets.VPS_KEY }}
-
-    - name: Set correct permissions
-      run: |
-        ssh -i private_key $VPS_USER@$VPS_HOST "sudo chown -R www-data:www-data /var/www/html/facetea2"
-      env:
-        VPS_USER: ${{ secrets.VPS_USER }}
-        VPS_HOST: ${{ secrets.VPS_HOST }}
+        cp -r frontend/dist/* /var/www/html/facetea2
+    
 
