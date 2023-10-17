@@ -34,9 +34,14 @@ jobs:
 
     - name: Install SSH Client
       run: sudo apt-get install openssh-client -y
-
-    - name: Copy Files via SSH
+      
+    - name: List directory contents
       run: |
-        cp -r frontend/dist/* /var/www/html/facetea2
-    
+        ls -l frontend/
+        ls -l frontend/dist/
+
+    - name: Copy files
+      run: cp -r dist/* /var/www/html/facetea2
+      working-directory: frontend
+        
 
