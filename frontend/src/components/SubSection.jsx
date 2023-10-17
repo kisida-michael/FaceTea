@@ -32,7 +32,7 @@ const SubSection = ({ title, categories }) => {
   return (
       <div className="">
         <div className="flex items-center space-x-4">
-          <h2 className="ml-4 sm:ml-0  mt-4 sm:mt-0 text-primary font-semibold text-4xl">{title}</h2>
+          <h2 className="ml-4 sm:ml-0  mt-4 sm:mt-4 text-primary uppercase font-roboto font-semibold text-4xl">{title}</h2>
         </div>
         <div className="flex flex-col md:flex-row md:h-min-max">
           <div className="md:w-1/4 md:h-max md:mx-0  mx-4 flex flex-col bg-secondary-200 mt-4">
