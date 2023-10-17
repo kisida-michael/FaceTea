@@ -7,8 +7,8 @@ import arrows from "../assets/arrows.svg";  // Import the SVG file as a regular 
 const Header = () => {
   return (
     <header className="bg-header-bg h-screen font-roboto bg-cover bg-no-repeat bg-center flex flex-col text-white">
-      <Navbar />
-        {/* <Navbar2 /> */}
+      {/* <Navbar /> */}
+        <Navbar2 />
       <div className=" flex h-full">
       <img src={arrows} alt="Arrows" className="absolute h-12 bottom-8 left-8" />  {/* Use the img element to display the SVG */}
         <div className="mx-auto text-center flex flex-col space-y-8 justify-center">
