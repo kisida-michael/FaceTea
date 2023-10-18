@@ -1,6 +1,5 @@
 name: Build and Deploy
 
-
 on:
   push:
     branches:
@@ -19,11 +18,19 @@ jobs:
       with:
         node-version: 18  # Use Node.js 14.x
 
+    - name: Cache Node.js modules
+      uses: actions/cache@v2
+      with:
+        # Cache key typically includes the workflow file, runner type, and a hash of the dependency files (e.g., package-lock.json)
+        key: ${{ runner.os }}-node-${{ hashFiles('frontend/package-lock.json') }}
+        path: frontend/node_modules
+
     - name: Install Dependencies and Build
       run: |
         cd frontend
         npm install
         npm run build
+
     - name: List directory contents
       run: |
         ls -l frontend/
@@ -33,12 +40,3 @@ jobs:
       run: |
         cd frontend
         cp -r dist/* /var/www/html/facetea2
-
-   
-
-       
-
-   
-      
-        
-
