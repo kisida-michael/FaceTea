@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Menu from './components/Menu'
-import Reviews from './components/Reviews'
+import Reviews from './components/ReviewSection'
 import './App.css'
 
 
