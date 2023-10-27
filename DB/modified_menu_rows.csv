@@ -1,0 +1,155 @@
+name,chineseName,price,description,category,chineseCategory,location,id,foodCategory,img_url
+Vanilla Milk Tea,香草奶茶,5.75,,Milk Tea,奶茶,3,14,drink,
+Longan Honey Milk Tea,龙眼蜂蜜绿茶,5.75,,Milk Tea,奶茶,3,15,drink,
+Brulee Ice Cream Milk Tea,冰淇淋布蕾蛋糕奶茶,6.95,,Milk Tea,奶茶,3,18,drink,
+Coconut Smoothie ,椰香冰沙,5.75,,Smoothie,冰沙,3,39,drink,
+Honeydew Smoothie,哈密瓜冰沙,5.75,,Smoothie,冰沙,3,40,drink,
+Vanilla Smoothie ,香草冰沙,5.75,,Smoothie,冰沙,3,42,drink,
+Mix Smoothies ,综合冰沙,5.75,"Can mix: Mango 芒果, Pineapple 菠萝, Strawberry 草莓, Passion Fruit 百香果",Smoothie,冰沙,3,43,drink,
+Passion Fruit Tea ,百香果茶,6.25,,Fruit Tea,水果茶,3,49,drink,
+Lychee Green Tea ,荔枝绿茶,6.25,,Fruit Tea,水果茶,3,51,drink,
+Kumquat Lemon Tea ,金桔柠檬,6.25,,Fruit Tea,水果茶,3,52,drink,
+Mix Fruit Tea ,综合水果茶,6.25,"Can mix: Mango 芒果, Pineapple 菠萝, Strawberry 草莓, Passion Fruit 百香果",Fruit Tea,水果茶,3,54,drink,
+Brown Sugar Babo Milk (Small) ,烈焰黑糖鲜奶,6.0,"Brown Sugar Tapioca with Organic Whole Milk, Cheese Foam and Torched Brown Sugar",Milk Tea,奶茶,3,22,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Brown_Sugar_Babo_Milk(small&large).jpg?t=2023-10-26T20%3A51%3A27.335Z
+Brown Sugar Bubble Milk Tea (Small) ,黑糖脏脏茶,5.75,Fresh Homemade Brown Sugar Combined with Signature Milk Black Tea and Tapioca,Milk Tea,奶茶,3,20,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Brown_Sugar_Bubble_Milk_Tea(small&large).jpg?t=2023-10-26T20%3A51%3A58.383Z
+Chai Latte,印度拿铁,5.0,,Milk Tea,奶茶,3,16,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Chai_Latte.jpg
+Coconut Milk Tea,椰香奶茶,5.75,,Milk Tea,奶茶,3,9,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Coconut_Milk_Tea.jpg
+Grapefruit & Passion Fruit Tea ,西柚百香,6.25,,Fruit Tea,水果茶,3,48,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Grapefruit&Passion_Fruit_Tea.jpg
+Grapefruit Yogurt ,西柚多多,5.75,,Yogurt,鲜果多多,3,32,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Grapefruit_Yogurt.jpg
+Hawaii Milk Tea,夏威夷奶茶,5.75,,Milk Tea,奶茶,3,13,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Hawaii_Milk_Tea.jpg
+King of Oolong Tea w/ Cheese Foam ,金凤茶王,5.75,,Freshly Brewed Tea w. Cheese Foam,芝士奶盖现萃茶,3,26,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/King_of_Oolong_Tea%20W.cheese_Foam.jpg?t=2023-10-26T20%3A58%3A32.489Z
+Kiwi Fruit Tea ,奇异果茶,6.25,,Fruit Tea,水果茶,3,53,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Kiwi_Fruit_Tea.jpg?t=2023-10-26T20%3A58%3A50.466Z
+Lychee & Dragonfruit Tea ,荔枝火龙果茶,6.25,,Fruit Tea,水果茶,3,50,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Lychee&Dragonfruit_Tea.jpg
+Mango Smoothie ,芒果冰沙,5.75,,Smoothie,冰沙,3,33,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Mango_Pomelo_Sago.jpg
+Matcha Latte,抹茶拿铁,5.75,,Milk Tea,奶茶,3,8,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Matcha_Latte.jpg?t=2023-10-26T21%3A04%3A23.965Z
+Osmanthus Oolong Milk Tea,桂花乌龙奶茶,5.75,,Milk Tea,奶茶,3,11,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Osmanthus_Oolong_Milk_Tea.jpg
+Peach Oolong Milk Tea,白桃乌龙奶茶,5.75,,Milk Tea,奶茶,3,12,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Peach_Oolong_Milk_Tea.jpg
+Pineapple Green Tea ,鹿岛凤梨,6.25,,Fruit Tea,水果茶,3,45,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Pineapple_Green_Tea.jpg?t=2023-10-26T21%3A06%3A57.859Z
+Pomelo Mojito ,红柚迷迭香,6.5,Grapefruit green tea,Face Tea Special,肥宅特饮,3,55,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Pomelo_Mojito.jpg?t=2023-10-26T21%3A07%3A24.039Z
+Thai Tea,泰式奶茶,5.5,,Milk Tea,奶茶,3,5,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Thai_Tea.jpg
+Sakura Oolong Milk Tea ,樱花乌龙奶茶,5.75,,Milk Tea,奶茶,3,10,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Sakura_Oolong_Milk_Tea.jpg
+Sakura Oolong Tea w/ Cheese Foam,樱花乌龙,5.75,,Freshly Brewed Tea w. Cheese Foam,芝士奶盖现萃茶,3,28,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Sakura_Oolong_Tea_W.cheese_Foam.jpg
+Strawberry Yogurt ,草莓多多,5.75,,Yogurt,鲜果多多,3,30,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Strawberry_Yogurt.jpg
+Taro Smoothie,芋香冰沙,5.75,,Smoothie,冰沙,3,37,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Taro_Smoothie.jpg?t=2023-10-26T21%3A11%3A04.432Z
+Super Fruit Tea ,超级水果杯,6.5,,Fruit Tea,水果茶,3,44,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Super_Fruit_Tea.jpg?t=2023-10-26T21%3A11%3A56.907Z
+Yogurt Avocado Smoothie ,牛油果厚乳酪,6.75,,Face Tea Special,肥宅特饮,3,57,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Yogurt_Avocado_Smoothie.jpg?t=2023-10-26T21%3A13%3A05.142Z
+Matcha Matcha ,抹茶雪顶,6.5,Matcha smoothie topped with whipped cream and strawberry slices,Face Tea Special,肥宅特饮,3,60,drink,
+Coconut Cloud ,椰汁西米露,6.95,Coconut and milk smoothie w/ lychee jelly and sago,Face Tea Special,肥宅特饮,3,68,drink,
+Ice Latte (Small) ,冰拿铁（小杯）,4.5,,Coffee,咖啡,3,72,drink,
+Ice Latte (Large) ,冰拿铁（大杯）,5.5,,Coffee,咖啡,3,73,drink,
+Cappuccino (Small) ,卡布奇诺（小杯）,4.5,,Coffee,咖啡,3,74,drink,
+Cappuccino (Large) ,卡布奇诺（大杯）,5.5,,Coffee,咖啡,3,75,drink,
+Mocha Coffee (Small) ,摩卡（小）,5.0,,Coffee,咖啡,3,76,drink,
+Mocha Coffee (Large) ,摩卡（大）,6.0,,Coffee,咖啡,3,77,drink,
+Brulee Ice Cream Coffee ,冰淇淋布蕾咖啡,6.95,,Coffee,咖啡,3,78,drink,
+Chicken Nuggets ,上校鸡块,4.5,,Snacks,小吃,1,81,food,
+Tiramisu ,提拉米苏,3.75,,Snacks,小吃,1,82,food,
+Takoyaki,章鱼小丸子,7.5,,Snacks,小吃,3,83,food,
+Japanese Sausage (6pc),,6.0,,Snacks,小吃,3,84,food,
+Spring Roll (2pc),,3.95,Fried vegetable spring rolls,Snacks,小吃,2,85,food,
+Steam Dumpings (6pc),,6.95,Pork & vegetable,Snacks,小吃,2,86,food,
+Fried Dumpings (6pc),,6.95,Pork & vegetable,Snacks,小吃,2,87,food,
+Create Your Own Bowl (Regular),,13.95,,Poke Bowl,,2,88,food,
+Create Your Own Bowl (Large),,15.95,,Poke Bowl,,2,89,food,
+Tuna Lover,,14.5,"Tuna, Spicy Tuna, Cucumber, Edamame, Tomato, Onion, Avocado, Crispy Onion, Eel Sauce, Spicy Mayo",Poke Bowl,,2,90,food,
+Salmon Lover,,14.5,"Salmon, Spicy Salmon, Sweet Corn, Pickled Radish & Carrot, Edamame, Pineapple, Avocado, Rice Crackers, Spicy Mayo",Poke Bowl,,2,91,food,
+Hawaii Bowl,,14.5,"Shrimp, Chicken, Pineapple, Sweet Corn, Mango, Pickled Radish & Carrot, Crabmeat Salad, Rice Seasoning, Mango Sauce",Poke Bowl,,2,92,food,
+Vegetarian Bowl,,14.5,"Tofu, Cucumber, Edamame, Tomato, Pickled Radish & Carrot, Avocado, Onion, Sesame Seed, Poke Sauce",Poke Bowl,,2,93,food,
+Spicy Ginger Chicken,,14.5,"Chicken, Cucumber, Tomato, Edamame, Sushi Ginger, Shredded Seaweed,Avocado, Jalapeno, Poke Sauce, Sriracha Sauce",Poke Bowl,,2,94,food,
+Tuna,,,,Poke Toppings,,2,95,toppings,
+Salmon Lover,,,,Poke Toppings,,2,96,toppings,
+Spicy Tuna,,,,Poke Toppings,,2,97,toppings,
+Spicy Salmon,,,,Poke Toppings,,2,98,toppings,
+Scallop,,,,Poke Toppings,,2,99,toppings,
+Shrimp,,,,Poke Toppings,,2,100,toppings,
+Chicken,,,,Poke Toppings,,2,101,toppings,
+Tofu,,,,Poke Toppings,,2,102,toppings,
+Onion,,,,Poke Toppings,,2,103,toppings,
+Tomato,,,,Poke Toppings,,2,104,toppings,
+Jalapeno,,,,Poke Toppings,,2,105,toppings,
+Green Onion,,,,Poke Toppings,,2,106,toppings,
+Cucumber,,,,Poke Toppings,,2,107,toppings,
+Pineapple,,,,Poke Toppings,,2,108,toppings,
+Sweet Corn,,,,Poke Toppings,,2,109,toppings,
+Cream Cheese,,,,Poke Toppings,,2,110,toppings,
+Edamame,,,,Poke Toppings,,2,111,toppings,
+Cilantro,,,,Poke Toppings,,2,112,toppings,
+Avocado,,1.5,,Poke Toppings,,2,113,toppings,
+Crabmeat Salad,,1.5,,Poke Toppings,,2,114,toppings,
+Seaweed Salad,,,,Poke Toppings,,2,115,toppings,
+Mango,,,,Poke Toppings,,2,116,toppings,
+Masago (Fish Egg),,,,Poke Toppings,,2,117,toppings,
+Sushi Ginger,,,,Poke Toppings,,2,118,toppings,
+Pickled Radish & Carrot,,,,Poke Toppings,,2,119,toppings,
+Poke Sauce,,,,Poke Toppings,,2,120,toppings,
+Spicy Mayo,,,,Poke Toppings,,2,121,toppings,
+Brown Sugar Milkshake, 黑糖冰沙,6.95,,Face Tea Special,肥宅特饮,3,70,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Brown_Sugar_Milkshake.jpg
+Coffee Milkshake ,鸳鸯冰沙,6.95,,Face Tea Special,肥宅特饮,3,65,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Coffee_Milkshake.jpg?t=2023-10-26T20%3A55%3A17.108Z
+French Fries ,薯条,3.95,,Snacks,小吃,3,80,food,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/French_Fries.jpg
+Mango Pomelo Sago ,杨枝甘露,6.95,"Mango and milk smoothie w/ crystal boba, sago, grapefruit pulp, and diced mango",Face Tea Special,肥宅特饮,3,63,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Mango_Pomelo_Sago.jpg
+Pina Colada, 椰林飘香,6.5,,Face Tea Special,肥宅特饮,3,69,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Peach_Oolong_Tea_W.cheese_Foam.jpg
+Summer Dream ,芒不错,5.75,Mango and Sprite green tea,Face Tea Special,肥宅特饮,3,59,drink,"https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Summer_Dream.jpg?t=2023-10-26T21%3A13%3A14.214Z
+"
+Rose-Berry ,冷玫花茶,5.75,Blueberry tea w/ baby rose buds,Face Tea Special,肥宅特饮,3,67,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Rose-Berry.jpg?t=2023-10-26T21%3A14%3A28.308Z
+Honey Wasabi,,,,Poke Toppings,,2,122,toppings,
+Eel Sauce,,,,Poke Toppings,,2,123,toppings,
+Mango Sauce,,,,Poke Toppings,,2,124,toppings,
+Sriracha Sauce,,,,Poke Toppings,,2,125,toppings,
+Crispy Onion,,,,Poke Toppings,,2,126,toppings,
+Sesame Seed,,,,Poke Toppings,,2,127,toppings,
+Rice Seasoning,,,,Poke Toppings,,2,128,toppings,
+Shredded Seaweed,,,,Poke Toppings,,2,129,toppings,
+Rice Crackers,,,,Poke Toppings,,2,130,toppings,
+Tonkatsu Ramen,,14.95,"Poke chashu, kikurage mushroom, menma, egg, seaweed, naruto fish cake, green onion",Tokyo Ramen,,2,131,toppings,
+Volcano Ramen,,14.95,"Fried chicken, menma, kikurage mushroom, egg, ginger, cilaantro, crisp onion",Tokyo Ramen,,2,133,toppings,
+Seafood Ramen,,15.95,"Shrimp, scallop, naruto fish cake, kikurage mushroom, sweet corn, menma, seaweed, cilantro, egg",Tokyo Ramen,,2,134,toppings,
+Vegan Miso Ramen,,14.95,"Tofu, kikurage mushroom, sweet corn, menma, spinach, seaweed, green onion",Tokyo Ramen,,2,135,toppings,
+Tapioca 珍珠 ,,0.5,,Drink Toppings,,3,136,toppings,
+Strawberry Popping Boba ,草莓爆爆珠 ,0.5,,Drink Toppings,,3,137,toppings,
+Mango Popping Boba ,芒果爆爆珠 ,0.5,,Drink Toppings,,3,138,toppings,
+Peach Popping Boba ,白桃爆爆珠,0.5,,Drink Toppings,,3,139,toppings,
+Pudding ,布丁 ,0.5,,Drink Toppings,,3,140,toppings,
+Herbal Jelly ,仙草 ,0.5,,Drink Toppings,,3,141,toppings,
+Crystal Boba  ,寒天,0.5,,Drink Toppings,,3,142,toppings,
+Lychee Jelly  ,椰果,0.5,,Drink Toppings,,3,143,toppings,
+Coffee Jelly ,,0.5,,Drink Toppings,,3,144,toppings,
+Oreo ,奥利奥 ,0.5,,Drink Toppings,,3,145,toppings,
+Sago ,西米 ,0.5,,Drink Toppings,,3,146,toppings,
+Coffee ,,0.5,,Drink Toppings,,3,147,toppings,
+Brown Sugar ,黑糖酱 ,0.5,,Drink Toppings,,3,148,toppings,
+Cheese Foam  ,芝士奶盖,1.0,,Drink Toppings,,3,149,toppings,
+Ice Cream ,冰淇淋 ,1.0,,Drink Toppings,,3,150,toppings,
+Cream ,奶油 ,1.0,,Drink Toppings,,3,151,toppings,
+Panna Cotta ,奶酪 ,1.0,,Drink Toppings,,3,152,toppings,
+Creme Brulee ,布蕾蛋糕 ,1.0,,Drink Toppings,,3,153,toppings,
+Signature Milk Black Tea,经典奶茶,5.5,,Milk Tea,奶茶,3,1,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Signature_Milk_Black_Tea.jpg
+Hawaii Iced Tea w/ Cheese Foam ,夏威夷春茶,5.75,,Freshly Brewed Tea w. Cheese Foam,芝士奶盖现萃茶,3,29,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Grapefruit_Yogurt.jpg
+Honeydew Milk Tea,哈密瓜奶茶,5.5,,Milk Tea,奶茶,3,6,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Honeydew_Milk_Tea.jpg
+Kiwi Smoothie ,奇异果冰沙,5.75,,Smoothie,冰沙,3,41,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Kiwi_Smoothie.jpg
+Blue Curacao Lemonade,印象日落,5.5,,Face Tea Special,肥宅特饮,3,61,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Blue_Curacao_Lemonade.jpg
+Blue Curacao Milkshake ,富士山下,6.5,,Face Tea Special,肥宅特饮,3,62,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Blue_Curacao_Milkshake.jpg?t=2023-10-26T20%3A50%3A58.098Z
+Brown Sugar Babo Milk (Large) ,烈焰黑糖鲜奶大杯,6.75,"Brown Sugar Tapioca with Organic Whole Milk, Cheese Foam and Torched Brown Sugar",Milk Tea,奶茶,3,23,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Brown_Sugar_Babo_Milk(small&large).jpg?t=2023-10-26T20%3A51%3A27.335Z
+Brown Sugar Bubble Milk Tea (Large),黑糖脏脏茶大杯,6.5,Fresh Homemade Brown Sugar Combined with Signature Milk Black Tea and Tapioca,Milk Tea,奶茶,3,21,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Brown_Sugar_Bubble_Milk_Tea(small&large).jpg?t=2023-10-26T20%3A51%3A58.383Z
+Cheese Strawberry ,芝士莓莓,6.5,Strawberry green tea smoothie topped with cheese foam,Face Tea Special,肥宅特饮,3,58,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Cheese_Strawberry.jpg?t=2023-10-26T20%3A53%3A46.778Z
+Four Seasons Green Tea w/ Cheese Foam ,四季春,5.75,,Freshly Brewed Tea w. Cheese Foam,芝士奶盖现萃茶,3,24,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Four_Seasons_Green_Tea_W.cheese_Foam.jpg?t=2023-10-26T20%3A55%3A48.697Z
+Fresh Strawberry w. Panna Cotta ,草莓奶酪鲜奶,6.95,Strawberry and milk smoothie w/ panna cotta (Italian milky custard),Face Tea Special,肥宅特饮,3,66,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Fresh_Strawberry_w_Panna_Cotta.jpg
+Jasmine Green Tea w/ Cheese Foam ,高山茉莉,5.75,,Freshly Brewed Tea w. Cheese Foam,芝士奶盖现萃茶,3,25,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Jasmine_Green_Tea_W.cheese_Foam.jpg
+Jasmine Milk Green Tea,茉香奶绿,5.5,,Milk Tea,奶茶,3,2,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Jasmine_Milk_Green_Tea.jpg?t=2023-10-26T20%3A58%3A18.065Z
+Mango & Orange Fruit Tea ,流芒橙,6.25,,Fruit Tea,水果茶,3,46,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Mango&Orange_Fruit_Tea.jpg
+Mango Yogurt ,芒果多多,5.75,,Yogurt,鲜果多多,3,31,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Mango_Pomelo_Sago.jpg
+Miso Ramen,,14.95,"Poke chashu, sweet corn, menma, egg, seaweed, naruto fish cake, green onion, ginger",Tokyo Ramen,,2,132,toppings,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Matcha_Latte.jpg?t=2023-10-26T21%3A04%3A23.965Z
+Oreo Garden Milk Tea,盆栽奶茶,6.5,"Black Milk Tea with Whipped Cream, topped with Oreo Crumbs",Milk Tea,奶茶,3,17,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Oreo_Garden_Milk_Tea.jpg?t=2023-10-26T21%3A05%3A47.104Z
+Oreo Milkshake ,奥利奥可可冰,6.95,,Face Tea Special,肥宅特饮,3,64,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Oreo_Milkshake.jpg?t=2023-10-26T21%3A05%3A55.823Z
+Passion Fruit Smoothie,百香果冰沙,5.75,,Smoothie,冰沙,3,35,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Passion_Fruit_Smoothie.jpg
+Peach Oolong Tea w/ Cheese Foam ,白桃乌龙,5.75,,Freshly Brewed Tea w. Cheese Foam,芝士奶盖现萃茶,3,27,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Peach_Oolong_Tea_W.cheese_Foam.jpg
+Pineapple Smoothie,菠萝冰沙,5.75,,Smoothie,冰沙,3,36,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Pineapple_Smoothie.jpg?t=2023-10-26T21%3A07%3A09.627Z
+Popcorn Chicken ,盐酥鸡,6.75,,Snacks,小吃,3,79,food,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Popcorn_Chicken.jpg?t=2023-10-26T21%3A07%3A35.537Z
+Taro Milk Tea,芋香奶茶,5.5,,Milk Tea,奶茶,3,4,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Taro_Milk_Tea.jpg?t=2023-10-26T21%3A08%3A44.659Z
+Rose Milk Tea,玫瑰奶茶,5.5,,Milk Tea,奶茶,3,7,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Rose_Milk_Tea.jpg?t=2023-10-26T21%3A09%3A04.687Z
+Roasted Oolong Milk Tea,碳培乌龙奶茶,5.5,,Milk Tea,奶茶,3,3,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Roasted_Oolong_Milk_Tea.jpg?t=2023-10-26T21%3A09%3A32.478Z
+Sakura-berry Milk Tea,樱花莓莓,6.95,Strawberry and Cherry Blossom Milk Tea with Whipped Cream and Sprinkles,Milk Tea,奶茶,3,19,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Sakura-berry_Milk_Tea.jpg?t=2023-10-26T21%3A10%3A16.309Z
+Strawberry Smoothie,草莓冰沙,5.75,,Smoothie,冰沙,3,34,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Strawberry_Smoothie.jpg?t=2023-10-26T21%3A10%3A54.648Z
+Thai Tea Smoothie,泰式冰沙,5.75,,Smoothie,冰沙,3,38,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Thai_Tea_Smoothie.jpg
+Sunrise Lemon Tea ,日出印象,6.25,,Fruit Tea,水果茶,3,47,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Sunrise_Lemon_Tea.jpg?t=2023-10-26T21%3A12%3A04.997Z
+Strawberry Blossom ,草莓罗勒乌龙,6.5,Strawberry Oolong Tea w/ sliced strawberries and bay leaf,Face Tea Special,肥宅特饮,3,56,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Strawberry_Blossom.jpg?t=2023-10-26T21%3A12%3A52.995Z
+Tropical Paradise ,火龙果芒芒,6.5,Mango dragonfruit lemon tea,Face Tea Special,肥宅特饮,3,71,drink,https://wwvlemerrmdrbopunhwq.supabase.co/storage/v1/object/public/menu_img/Food_Images/Summer_Dream.jpg?t=2023-10-26T21%3A13%3A14.214Z
