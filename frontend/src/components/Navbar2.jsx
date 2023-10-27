@@ -12,7 +12,7 @@ const Navbar2 = () => {
   };
 
   return (
-    <nav className=" w-full py-4 font-roboto-slab text-white">
+    <nav className=" w-full py-4 font-roboto-slab text-white sticky top-0 z-50">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <div className=" font-bold text-xl ">Face Tea</div>

@@ -59,7 +59,7 @@ const SubSection = ({ title, categories }) => {
                       key={item.id}
                       className="flex my-2 mx-8 py-4 px-4   bg-secondary-300 flex-row text-left"
                     >
-                      <img src={sampleImg} alt="Sample" className="h-20 w-20" />
+                      <img src={item.img_url} alt="Sample" className="h-20 w-20" />
                       <div className="flex flex-col justify-between ml-4">
                         <div>
                           <h3 className="text-secondary-900 font-roboto-slab text-xl text-medium">

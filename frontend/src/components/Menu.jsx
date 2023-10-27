@@ -30,8 +30,12 @@ const Menu = () => {
       }, {});
       return organizedData;
     }
+
+    
   };
 
+
+  console.log(menuData);
   return (
     <div className="min-h-screen bg-secondary-100 flex " id="menu">
       <div className="container mx-auto text-center">

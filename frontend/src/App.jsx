@@ -14,8 +14,8 @@ function App() {
   return (
     <div className='w-full bg-secondary-100'>
       
-      <div className="mx-auto min-h-screen">
-     
+      <div className="mx-auto min-h-screen bg-primary">
+        <Navbar />
         <Header />
         <Menu />
         <Reviews />
