@@ -1,10 +1,23 @@
 // Import React and necessary dependencies
-import React, { useState } from 'react';
-
+import React, { useState, useEffect } from 'react';
+import { useNavbarContext } from '../utils/NavbarContext';
 // Navbar component
 const Navbar2 = () => {
   // State to manage mobile menu visibility
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { navbarBackground, changeNavbarBackground } = useNavbarContext();
+
+  useEffect(() => {
+    const headerHeight = document.querySelector('header').offsetHeight;
+
+    const handleScroll = () => {
+      changeNavbarBackground(headerHeight);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [changeNavbarBackground]);
 
   // Toggle mobile menu visibility
   const toggleMobileMenu = () => {
@@ -12,28 +25,26 @@ const Navbar2 = () => {
   };
 
   return (
-    <nav className=" w-full py-4 font-roboto-slab text-white sticky top-0 z-50">
+    <div className={`fixed top-0 left-0 w-full z-10 transition-all duration-300 ${navbarBackground}`}>
+    <nav className=" w-full py-4 font-roboto-slab text-white">
       <div className="container mx-auto">
-        <div className="flex justify-between items-center">
-          <div className=" font-bold text-xl ">Face Tea</div>
-          <div className="hidden md:flex space-x-4  flex-1 ">
-            <div className='flex mx-auto space-x-6 pr-20'>
-            <a href="#menu" className="hover:text-gray-500">Menu</a>
-            <a href="#reviews" className="hover:text-gray-500 ">Reviews</a>
-            <a href="#contact" className="hover:text-gray-500">Contact</a>
+      <div className="flex justify-between items-center">
+          <div className="text-white font-bold text-xl ">Face Tea</div>
+          <div className="hidden md:flex space-x-4 text-white hover:text-blue-600">
+            <a href="#menu" className="text-white">Menu</a>
+            <a href="#reviews" className="text-white ">Reviews</a>
+            <a href="#contact" className="text-white">Contact</a>
             <div className="relative group">
-              <button className="hover:text-gray-500">Locations</button>
-              <div className="absolute left-0 mt-2 p-2  rounded shadow-lg opacity-0 group-hover:opacity-100 w-max">
-                <a href="#location1" className="block hover:text-gray-500">Lake Mary</a>
-                <hr className='opacity-20'></hr>
-                <a href="#location2" className="block hover:text-gray-500">Orange City </a>
+              <button className="text-white">Locations</button>
+              <div className="absolute left-0 mt-2 bg-white p-2 rounded shadow-lg opacity-0 group-hover:opacity-100 w-max">
+                <a href="#location1" className="block text-gray-700">Lake Mary</a>
+                <a href="#location2" className="block text-gray-700">Orange City </a>
               </div>
             </div>
           </div>
           <button className="md:hidden text-white" onClick={toggleMobileMenu}>
             <i className="fas fa-bars">word</i>
           </button>
-          </div>
         </div>
         {isMobileMenuOpen && (
           <div className="md:hidden mt-4">
@@ -53,6 +64,7 @@ const Navbar2 = () => {
         )}
       </div>
     </nav>
+    </div>
   );
 };
 

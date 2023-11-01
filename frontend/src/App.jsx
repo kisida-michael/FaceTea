@@ -1,29 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Navbar from './components/Navbar'
-import Header from './components/Header'
-import Menu from './components/Menu'
-import Reviews from './components/ReviewSection'
-import './App.css'
-
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LocationDependentContent from './utils/LocationDependentComponent';
+const App = () => {
   return (
-    <div className='w-full bg-secondary-100'>
-      
-      <div className="mx-auto min-h-screen bg-primary">
-        <Navbar />
-        <Header />
-        <Menu />
-        <Reviews />
-       
-      </div>
-      </div>
-  )
-}
+    <Router>
+      <Routes>
+        <Route path="/:location" element={<LocationDependentContent />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
-
+export default App;

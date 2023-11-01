@@ -1,50 +1,58 @@
-import React from "react";
-import TitleShape from "./TitleShape";
-import Review from "./Review";
+// ReviewSection.jsx
+import React, { useState } from 'react';
+import Review from './Review';
+import Carousel from 'react-grid-carousel';
 
-const reviews = [
-  {
-    name: "John Doe",
-    rating: 5,
-    comment: `I love this place.  They make excellent milk tea and have an amazing selection, especially some of their more unique options.  Can never go wrong adding the cheese cream (not sure what it's called) onto the milk tea.  It's a calming atmosphere, always smells great when you walk in.  Love that they have some board games available, which is great for those that want to sit down with their drink and socialize a bit.  It is a small space so not much seating available when it's busy.  Overall a great place, and definitely a must visit for the milk tea.`,
-  },
-  {
-    name: "Jane Doe",
-    rating: 4,
-    comment: `Nice teashop and some snacks in Lake Mary. The Jasmine Milk tea is refreshing and flavorful. The salt and pepper popcorn chicken is tasty. I would order less pepper next time because a lot of pepper makes it hot. I’m happy with my experience today.
+const ReviewSection = () => {
 
-    Ps: the boba texture is different from most of the boba I ever had. I wouldn’t say good or not, it’s just different. I like it too`,
-  },
-  // ... more reviews
-];
+  const [currentIndex, setCurrentIndex] = useState(0);
+ 
 
-const Reviews = () => {
+
+  
+  const reviewsData = [
+    { name: "Floyd Myers", comment: "This place is amazing!", rating: 4 },
+    { name: "Ronald Ricardo", comment: "Best boba in Florida!", rating: 5 },
+    { name: "Naomi Lopez", comment: "Delicious poke bowls!", rating: 4 },
+    { name: "Floyd Myers", comment: "This place is amazing!", rating: 4 },
+    { name: "Ronald Ricardo", comment: "Best boba in Florida!", rating: 5 },
+    { name: "Naomi Lopez", comment: "Delicious poke bowls!", rating: 4 },
+    //... add more reviews if you have them
+  ];
+
+  const handleNext = () => {
+    setCurrentIndex(prev => (prev + 3) % reviews.length);
+  };
+
+  const handlePrevious = () => {
+    setCurrentIndex(prev => (prev - 3 + reviews.length) % reviews.length);
+  };
+
   return (
-    <div className="min-h-screen bg-secondary-300 flex mt-20" id="reviews">
-      <div className="container mx-auto text-center">
-        <div className="flex pt-20 mx-auto justify-center">
-          <div className="flex flex-col">
-            <TitleShape title="Reviews" />
-          </div>
-        </div>
-        <section className="py-12 px-4">
-          <h2 className="text-2xl font-bold mb-8 text-secondary-900 font-roboto-slab ">
-           Hear from our Customers
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {reviews.map((review, index) => (
-              <Review
-                key={index}
-                name={review.name}
-                rating={review.rating}
-                comment={review.comment}
-              />
-            ))}
-          </div>
-        </section>
+    <div className="w-full bg-white py-12 text-black">
+      <h2 className="text-3xl font-bold mb-6 text-center">Our Customer Feedback</h2>
+      <div className='container mx-auto'>
+
+      
+      <Carousel
+        cols={3}
+        rows={1}
+        gap={10}
+        responsiveLayout={[
+          { breakpoint: 1200, cols: 3 },
+          { breakpoint: 990, cols: 2 },
+          { breakpoint: 500, cols: 1 }
+        ]}
+      >
+        {reviewsData.map((review, index) => (
+          <Carousel.Item key={index}>
+            <Review {...review} />
+          </Carousel.Item>
+        ))}
+      </Carousel>
       </div>
     </div>
   );
 };
 
-export default Reviews;
+export default ReviewSection;
