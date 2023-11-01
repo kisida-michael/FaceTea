@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import LocationSection from '../components/LocationSection';
 import Menu from '../components/Menu';
 import Reviews from '../components/Review';
-import ReviewSection from '../components/ReviewSection';
+// import ReviewSection from '../components/ReviewSection';
 import { NavbarProvider } from './NavbarContext';
 // ... other imports
 
