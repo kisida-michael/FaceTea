@@ -1,7 +1,7 @@
 // LocationSection.jsx
 import React from 'react';
 import Address from './Address';
-import StoreHours from './StoreHours';
+// import StoreHours from './StoreHours';
 
 const LocationSection = () => {
   const locationInfo = {
@@ -24,9 +24,9 @@ const LocationSection = () => {
         
         <div className="p-4 border border-gray-200 rounded-lg shadow-sm">
           <h3 className="text-xl font-semibold mb-3">Store Hours</h3>
-          {hours.map(hour => (
+          {/* {hours.map(hour => (
             <StoreHours key={hour.day} {...hour} />
-          ))}
+          ))} */}
         </div>
       </div>
     </div>
