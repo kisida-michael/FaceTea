@@ -30,7 +30,7 @@ const LocationDependentContent = () => {
         <Header storeDetails={storeDetails} locationURL={location} />
         <LocationSection  />
         <Menu locationURL={location} />
-        <ReviewSection locationURL={location} />    
+        {/* <ReviewSection locationURL={location} />     */}
     
        
         {/* ... */}
