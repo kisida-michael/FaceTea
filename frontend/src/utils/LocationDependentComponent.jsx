@@ -6,6 +6,7 @@ import LocationSection from '../components/LocationSection';
 import Menu from '../components/Menu';
 import Reviews from '../components/Review';
 // import ReviewSection from '../components/ReviewSection';
+import Footer from '../components/Footer';
 import { NavbarProvider } from './NavbarContext';
 // ... other imports
 
@@ -28,12 +29,14 @@ const LocationDependentContent = () => {
       <NavbarProvider>
         <Navbar2 />
         <Header storeDetails={storeDetails} locationURL={location} />
-        <LocationSection  />
+        <LocationSection locationURL = {location} />
         <Menu locationURL={location} />
+        <br></br>
         {/* <ReviewSection locationURL={location} />     */}
     
        
         {/* ... */}
+        <Footer />
       </NavbarProvider>
     </div>
   );

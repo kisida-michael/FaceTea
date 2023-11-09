@@ -37,13 +37,13 @@ const SubSection = ({ title, categories }) => {
         </h2>
       </div>
       <div className="flex flex-col md:flex-row md:h-min-max">
-        <div className="md:w-1/4 md:h-max md:mx-0  mx-4 flex flex-col bg-secondary-200 mt-4">
+        <div className="md:w-1/4 md:h-max md:mx-0  mx-4 flex flex-col border-2 border-secondary-300 mt-4">
           {Object.keys(categories).map((category) => (
             <div className="mx-2">
               <button
                 className={`text-secondary-900 w-full text-[1.25rem] font-semibold font-roboto my-2 text-left p-2 ${
-                  selectedCategory === category ? "bg-primary text-white" : ""
-                } hover:bg-primary transition-all`}
+                  selectedCategory === category ? "bg-primary text-white" : "bg-[#f5eedd]"
+                } hover:bg-primary hover:text-white transition-all`}
                 key={category}
                 onClick={() => setSelectedCategory(category)}
               >
@@ -55,14 +55,14 @@ const SubSection = ({ title, categories }) => {
         <animated.div
           ref={contentRef}
           style={props}
-          className="flex-1 bg-secondary-200  md:ml-10 mt-4 md:mx-0  mx-4 overflow-hidden"
+          className="flex-1 border-2  md:ml-10 mt-4 md:mx-0  mx-4 overflow-hidden"
         >
           {categories[selectedCategory] ? (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
               {categories[selectedCategory].map((item) => (
                 <div
                   key={item.id}
-                  className={`flex my-2 mx-8 py-4 px-4 bg-secondary-300 text-left ${
+                  className={`flex my-2 mx-8 py-4 px-4 bg-[#f5eedd] text-left ${
                     item.img_url ? "flex-row" : "flex-col"
                   }`}
                 >
@@ -91,7 +91,7 @@ const SubSection = ({ title, categories }) => {
                     </div>
                     {item.price && (
                       <p className="bg-primary h-8 w-min px-2 py-1 text-white">
-                        ${item.price}
+                        ${item.price.toFixed(2)}
                       </p>
                     )}
                   </div>
