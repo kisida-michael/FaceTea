@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import LocationSection from '../components/LocationSection';
 import Menu from '../components/Menu';
 import Reviews from '../components/Review';
-// import ReviewSection from '../components/ReviewSection';
+import ReviewSection from '../components/ReviewSection';
 import Footer from '../components/Footer';
 import { NavbarProvider } from './NavbarContext';
 // ... other imports
@@ -25,14 +25,14 @@ const LocationDependentContent = () => {
 
   // Now you can pass down the storeDetails or location to your components
   return (
-    <div className='w-full bg-secondary-100'>
+    <div className='w-full bg-secondary-100 overflow-hidden'>
       <NavbarProvider>
         <Navbar2 />
         <Header storeDetails={storeDetails} locationURL={location} />
         <LocationSection locationURL = {location} />
         <Menu locationURL={location} />
         <br></br>
-        {/* <ReviewSection locationURL={location} />     */}
+        <ReviewSection locationURL={location} />    
     
        
         {/* ... */}

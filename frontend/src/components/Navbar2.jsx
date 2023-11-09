@@ -25,9 +25,9 @@ const Navbar2 = () => {
   };
 
   return (
-    <div className={`fixed top-0 left-0 w-full z-10 transition-all duration-300 ${navbarBackground}`}>
+    <div className={`fixed top-0 left-0 w-full z-50 transition-all duration-300  ${navbarBackground}`}>
     <nav className=" w-full py-4 font-roboto-slab text-white">
-      <div className="container mx-auto">
+      <div className="container sm:px-0 px-4 sm:mx-auto">
       <div className="flex justify-between items-center">
           <div className="text-white font-bold text-xl ">Face Tea</div>
           <div className="hidden md:flex space-x-4 text-white hover:text-blue-600">

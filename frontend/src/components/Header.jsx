@@ -16,9 +16,8 @@ const Header = ({locationURL}) => {
   }, [locationURL]); // Only re-run the effect if locationURL changes
   
   return (
-    <header className="bg-header-bg h-screen font-roboto bg-cover bg-no-repeat bg-center flex flex-col text-white">
-      {/* <Navbar /> */}
-        {/* <Navbar2 /> */}
+    <header className="bg-header-bg h-screen font-roboto bg-cover bg-no-repeat bg-center flex flex-col text-white w-full">
+    
       <div className=" flex h-full">
       <img src={arrows} alt="Arrows" className="absolute h-12 bottom-8 left-8" />  
         <div className="mx-auto text-center flex flex-col space-y-6 justify-center">
