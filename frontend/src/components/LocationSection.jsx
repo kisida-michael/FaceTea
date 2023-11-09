@@ -1,7 +1,7 @@
 // LocationSection.jsx
 import React, { useState, useEffect } from "react";
 import Address from "./Address";
-import StoreHours from "./StoreHours.jsx";
+import Hours from "./Hours";
 
 const LocationSection = ({ locationURL }) => {
   const [location, setLocation] = useState("");
@@ -54,7 +54,7 @@ const LocationSection = ({ locationURL }) => {
           <div className="p-4">
           <h3 className="text-xl font-semibold mb-3">Store Hours</h3>
           {hours.map((hour) => (
-            <StoreHours  key={hour.day} {...hour} />
+            <Hours  key={hour.day} {...hour} />
           ))}
           </div>
         </div>

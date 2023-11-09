@@ -1,7 +1,7 @@
-// StoreHours.jsx
+// Hours.jsx
 import React from 'react';
 //work
-const StoreHours = ({ day, openTime, closeTime }) => {
+const Hours = ({ day, openTime, closeTime }) => {
   return (
     <div className="flex justify-between mb-2">
       <span>{day}</span>
@@ -10,4 +10,4 @@ const StoreHours = ({ day, openTime, closeTime }) => {
   );
 };
 
-export default StoreHours;
+export default Hours;
