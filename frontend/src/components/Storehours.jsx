@@ -1,6 +1,6 @@
 // StoreHours.jsx
 import React from 'react';
-
+//work
 const StoreHours = ({ day, openTime, closeTime }) => {
   return (
     <div className="flex justify-between mb-2">
