@@ -1,7 +1,7 @@
 // LocationSection.jsx
 import React, { useState, useEffect } from "react";
 import Address from "./Address";
-import StoreHours from "./StoreHours";
+import StoreHours from "./StoreHours.jsx";
 
 const LocationSection = ({ locationURL }) => {
   const [location, setLocation] = useState("");
