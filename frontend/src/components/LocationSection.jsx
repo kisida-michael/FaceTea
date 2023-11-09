@@ -48,7 +48,7 @@ const LocationSection = ({ locationURL }) => {
       <h2 className="text-3xl  text-primary font-bold mb-6 text-center">
         Our Location & Hours
       </h2>
-      <div className="flex mx-auto justify-center gap-12">
+      <div className="flex flex-col sm:flex-row sm:mx-auto mx-4 justify-center sm:space-x-12 sm:space-y-0 space-y-8 ">
         <div className="border-2 p-2 border-secondary-300">
         {location && <Address {...location} />}
           <div className="p-4">
@@ -58,7 +58,7 @@ const LocationSection = ({ locationURL }) => {
           ))}
           </div>
         </div>
-        <div className="p-8 border-2 border-secondary-300 shadow-sm w-1/3">
+        <div className="p-8 border-2 border-secondary-300 shadow-sm  w-full sm:w-1/3">
           <div>
             <iframe
               src={location.mapSrc}
