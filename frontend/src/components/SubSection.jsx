@@ -37,7 +37,7 @@ const SubSection = ({ title, categories }) => {
         </h2>
       </div>
       <div className="flex flex-col md:flex-row md:h-min-max">
-        <div className="md:w-1/4 md:h-max md:mx-0  mx-4 flex flex-col border-2 border-secondary-300 mt-4">
+        <div className="md:w-1/4 md:h-max md:mx-0  mx-4 flex flex-col border-2 border-secondary-300 mt-4 p-2">
           {Object.keys(categories).map((category) => (
             <div className="mx-2">
               <button
@@ -52,7 +52,54 @@ const SubSection = ({ title, categories }) => {
             </div>
           ))}
         </div>
-        <animated.div
+        <div
+  
+          className="flex-1 border-2  md:ml-10 mt-4 md:mx-0  mx-4 overflow-hidden"
+        >
+          {categories[selectedCategory] ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
+              {categories[selectedCategory].map((item) => (
+                <div
+                  key={item.id}
+                  className={`flex my-2 mx-8 py-4 px-4 bg-[#f5eedd] text-left ${
+                    item.img_url ? "flex-row" : "flex-col"
+                  }`}
+                >
+                  {item.img_url && (
+                    <img
+                      src={item.img_url}
+                      alt="Sample"
+                      className="h-20 w-20"
+                    />
+                  )}
+                  <div
+                    className={`flex ${
+                      item.img_url ? "flex-col" : ""
+                    } justify-between ml-4`}
+                  >
+                    <div>
+                      <h3 className="text-secondary-900 font-roboto-slab text-xl text-medium">
+                        {item.name}
+                      </h3>
+                      <p className="text-secondary-900 font-roboto">
+                        {item.chineseName}
+                      </p>
+                      <p className="text-secondary-900 font-roboto">
+                        {item.description}
+                      </p>
+                    </div>
+                    {item.price && (
+                      <p className="bg-primary h-8 w-min px-2 py-1 text-white">
+                        ${item.price.toFixed(2)}
+                      </p>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : null}
+        </div>
+        {/* <animated.div
           ref={contentRef}
           style={props}
           className="flex-1 border-2  md:ml-10 mt-4 md:mx-0  mx-4 overflow-hidden"
@@ -99,7 +146,7 @@ const SubSection = ({ title, categories }) => {
               ))}
             </div>
           ) : null}
-        </animated.div>
+        </animated.div> */}
       </div>
     </div>
   );

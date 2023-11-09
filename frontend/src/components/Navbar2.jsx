@@ -37,8 +37,8 @@ const Navbar2 = () => {
             <div className="relative group">
               <button className="text-white">Locations</button>
               <div className="absolute left-0 mt-2 bg-white p-2 rounded shadow-lg opacity-0 group-hover:opacity-100 w-max">
-                <a href="#location1" className="block text-gray-700">Lake Mary</a>
-                <a href="#location2" className="block text-gray-700">Orange City </a>
+                <a href="/lake-mary" className="block text-gray-700">Lake Mary</a>
+                <a href="/orange-city" className="block text-gray-700">Orange City </a>
               </div>
             </div>
           </div>
@@ -56,8 +56,8 @@ const Navbar2 = () => {
             </button>
             {isMobileMenuOpen && (
               <div className="mt-2 bg-white p-2 rounded shadow-lg">
-                <a href="#location1" className="block text-gray-700">Location 1</a>
-                <a href="#location2" className="block text-gray-700">Location 2</a>
+                <a href="/lake-mary" className="block text-gray-700">Lake Mary</a>
+                <a href="/orange-city" className="block text-gray-700">Orange City</a>
               </div>
             )}
           </div>

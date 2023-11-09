@@ -22,7 +22,11 @@ const Header = ({locationURL}) => {
       <div className=" flex h-full">
       <img src={arrows} alt="Arrows" className="absolute h-12 bottom-8 left-8" />  
         <div className="mx-auto text-center flex flex-col space-y-6 justify-center">
-          <h1 className="font-roboto-slab font-semibold text-8xl">Face Tea</h1>
+        {location === 'Orange City' ? (
+            <h1 className="font-roboto-slab font-semibold text-8xl">Face Tea & Poke Bowl</h1>
+          ) : (
+            <h1 className="font-roboto-slab font-semibold text-8xl">Face Tea</h1>
+          )}
           <h2 className="font-roboto-slab font-medium text-5xl">{location}</h2>
           <h3 className="font-light text-4xl">Life Begins After Tea</h3>
           <a href="#menu"className="p-2 px-6 border-2 border-white mx-auto hover:bg-white hover:text-black ">
