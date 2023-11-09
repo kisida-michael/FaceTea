@@ -5,6 +5,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/:location" element={<LocationDependentContent />} />
+        <Route path="/admin" element={<h1>Admin</h1>} />
       </Routes>
     </Router>
   );

@@ -12,7 +12,7 @@ const LocationSection = ({ locationURL }) => {
       setLocation("Orange City");
     }
     setLocation(locationInfo[locationURL]);
-
+//for later
   }, [locationURL]); // Only re-run the effect if locationURL changes
 
 
