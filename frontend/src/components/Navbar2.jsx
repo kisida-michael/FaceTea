@@ -31,9 +31,9 @@ const Navbar2 = () => {
       <div className="flex justify-between items-center">
           <div className="text-white font-bold text-xl ">Face Tea</div>
           <div className="hidden md:flex space-x-4 text-white hover:text-blue-600">
+          <a href="#hours" className="text-white">Hours</a>
             <a href="#menu" className="text-white">Menu</a>
             <a href="#reviews" className="text-white ">Reviews</a>
-            <a href="#contact" className="text-white">Contact</a>
             <div className="relative group">
               <button className="text-white">Locations</button>
               <div className="absolute left-0 mt-2 bg-white p-2 rounded shadow-lg opacity-0 group-hover:opacity-100 w-max">
@@ -43,19 +43,19 @@ const Navbar2 = () => {
             </div>
           </div>
           <button className="md:hidden text-white" onClick={toggleMobileMenu}>
-            <i className="fas fa-bars">word</i>
+            <i className="fas fa-bars">=</i>
           </button>
         </div>
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-4">
-            <a href="#menu" className="block text-white mb-2">Menu</a>
-            <a href="#reviews" className="block text-white mb-2">Reviews</a>
-            <a href="#contact" className="block text-white mb-2">Contact</a>
-            <button className="block text-white mb-2" onClick={() => setIsMobileMenuOpen(false)}>
+          <div className="md:hidden mt-4 flex flex-col">
+             <a href="#hours" className="text-white">Hours</a>
+            <a href="#menu" className="text-white">Menu</a>
+            <a href="#reviews" className="text-white ">Reviews</a>
+            <button className="block text-white mb-2 text-left" onClick={() => setIsMobileMenuOpen(false)}>
               Locations
             </button>
             {isMobileMenuOpen && (
-              <div className="mt-2 bg-white p-2 rounded shadow-lg">
+              <div className="mt-2 bg-white p-2 rounded shadow-lg ">
                 <a href="/lake-mary" className="block text-gray-700">Lake Mary</a>
                 <a href="/orange-city" className="block text-gray-700">Orange City</a>
               </div>

@@ -35,6 +35,7 @@ const SubSection = ({ title, categories }) => {
         <h2 className="ml-4 sm:ml-0  mt-4 sm:mt-4 text-primary uppercase font-roboto font-semibold text-4xl">
           {title}
         </h2>
+        <a className="border-primary border-2 text-secondary-900 font-roboto font-semibold  p-2 mt-4 hover:bg-primary hover:text-white" href="">Order Now</a>
       </div>
       <div className="flex flex-col md:flex-row md:h-min-max">
         <div className="md:w-1/4 md:h-max md:mx-0  mx-4 flex flex-col border-2 border-secondary-300 mt-4 p-2">

@@ -1,7 +1,4 @@
 import React, {useState, useEffect} from "react";
-import headerbg from "../assets/headerbg.png";
-import Navbar from "./Navbar";
-import Navbar2 from "./Navbar2";
 import arrows from "../assets/arrows.svg";  
 
 const Header = ({locationURL}) => {

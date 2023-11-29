@@ -32,13 +32,13 @@ const LocationSection = ({ locationURL }) => {
   };
 
   const hours = [
-    { day: "Monday", openTime: "8:00am", closeTime: "10:00pm" },
-    { day: "Tuesday", openTime: "8:00am", closeTime: "10:00pm" },
-    { day: "Tuesday", openTime: "8:00am", closeTime: "10:00pm" },
-    { day: "Tuesday", openTime: "8:00am", closeTime: "10:00pm" },
-    { day: "Tuesday", openTime: "8:00am", closeTime: "10:00pm" },
-    { day: "Tuesday", openTime: "8:00am", closeTime: "10:00pm" },
-    { day: "Tuesday", openTime: "8:00am", closeTime: "10:00pm" },
+    { day: "Monday", openTime: "Closed", closeTime: "Closed" },
+    { day: "Tuesday", openTime: "11:00am", closeTime: "9:00pm" },
+    { day: "Wednesday", openTime: "11:00am", closeTime: "9:00pm" },
+    { day: "Thursday", openTime: "11:00am", closeTime: "9:00pm" },
+    { day: "Friday", openTime: "11:00am", closeTime: "9:00pm" },
+    { day: "Saturday", openTime: "11:00am", closeTime: "9:00pm" },
+    { day: "Sunday", openTime: "11:00am", closeTime: "9:00pm" },
     // ... add other days
   ];
 
