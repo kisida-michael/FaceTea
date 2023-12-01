@@ -4,6 +4,7 @@ import { animated, useSpring } from "react-spring";
 
 import sampleImg from "../assets/sample.jpg";
 const SubSection = ({ title, categories, locationURL }) => {
+  console.log(locationURL)
   const [selectedCategory, setSelectedCategory] = useState("Drinks");
   const contentRef = useRef(null);
 
@@ -21,11 +22,12 @@ const SubSection = ({ title, categories, locationURL }) => {
   const getOrderLink = () => {
     switch (locationURL) {
       case "lake-mary":
+
         return "https://www.clover.com/online-ordering/face-tea-lake-mary";
       case "orange-city":
         return "https://www.clover.com/online-ordering/face-tea-orange-city";
       default:
-        return "#"; // Default link or some other fallback
+        return "https://www.clover.com/online-ordering/face-tea-lake-mary"; // Default link or some other fallback
     }
   };
 
