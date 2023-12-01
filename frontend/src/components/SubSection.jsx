@@ -4,7 +4,6 @@ import { animated, useSpring } from "react-spring";
 
 import sampleImg from "../assets/sample.jpg";
 const SubSection = ({ title, categories, locationURL }) => {
-  console.log(locationURL)
   const [selectedCategory, setSelectedCategory] = useState("Drinks");
   const contentRef = useRef(null);
 
@@ -19,7 +18,16 @@ const SubSection = ({ title, categories, locationURL }) => {
     return null;
   }
 
-  
+  const getOrderLink = () => {
+    switch (locationURL) {
+      case "lake-mary":
+        return "https://www.clover.com/online-ordering/face-tea-lake-mary";
+      case "orange-city":
+        return "https://www.clover.com/online-ordering/face-tea-orange-city";
+      default:
+        return "#"; // Default link or some other fallback
+    }
+  };
 
   return (
     <div className="">
@@ -27,7 +35,16 @@ const SubSection = ({ title, categories, locationURL }) => {
         <h2 className="ml-4 sm:ml-0  mt-4 sm:mt-4 text-primary uppercase font-roboto font-semibold text-4xl">
           {title}
         </h2>
-        <a className="border-primary border-2 text-secondary-900 font-roboto font-semibold  p-2 mt-4 hover:bg-primary hover:text-white" href="">Order Now</a>
+        {locationURL && (
+          <a 
+            className="border-primary border-2 text-secondary-900 font-roboto font-semibold p-2 mt-4 hover:bg-primary hover:text-white"
+            href={getOrderLink()}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Order Now
+          </a>
+        )}
       </div>
       <div className="flex flex-col md:flex-row md:h-min-max">
         <div className="md:w-1/4 md:h-max md:mx-0  mx-4 flex flex-col border-2 border-secondary-300 mt-4 p-2">
