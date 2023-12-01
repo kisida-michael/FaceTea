@@ -3,7 +3,8 @@ import { Flipper, Flipped } from "react-flip-toolkit";
 import { animated, useSpring } from "react-spring";
 
 import sampleImg from "../assets/sample.jpg";
-const SubSection = ({ title, categories }) => {
+const SubSection = ({ title, categories, locationURL }) => {
+  console.log(locationURL)
   const [selectedCategory, setSelectedCategory] = useState("Drinks");
   const contentRef = useRef(null);
 
@@ -13,21 +14,12 @@ const SubSection = ({ title, categories }) => {
     }
   }, [categories]);
 
-  const props = useSpring({
-    from: { height: "0px" },
-    to: async (next, cancel) => {
-      if (contentRef.current) {
-        contentRef.current.style.height = "auto";
-        const fullHeight = contentRef.current.scrollHeight + "px";
-        contentRef.current.style.height = "0px";
-        await next({ height: fullHeight });
-      }
-    },
-    config: { tension: 150, friction: 20 },
-  });
+
   if (!categories || Object.keys(categories).length === 0) {
     return null;
   }
+
+  
 
   return (
     <div className="">
@@ -100,54 +92,6 @@ const SubSection = ({ title, categories }) => {
             </div>
           ) : null}
         </div>
-        {/* <animated.div
-          ref={contentRef}
-          style={props}
-          className="flex-1 border-2  md:ml-10 mt-4 md:mx-0  mx-4 overflow-hidden"
-        >
-          {categories[selectedCategory] ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
-              {categories[selectedCategory].map((item) => (
-                <div
-                  key={item.id}
-                  className={`flex my-2 mx-8 py-4 px-4 bg-[#f5eedd] text-left ${
-                    item.img_url ? "flex-row" : "flex-col"
-                  }`}
-                >
-                  {item.img_url && (
-                    <img
-                      src={item.img_url}
-                      alt="Sample"
-                      className="h-20 w-20"
-                    />
-                  )}
-                  <div
-                    className={`flex ${
-                      item.img_url ? "flex-col" : ""
-                    } justify-between ml-4`}
-                  >
-                    <div>
-                      <h3 className="text-secondary-900 font-roboto-slab text-xl text-medium">
-                        {item.name}
-                      </h3>
-                      <p className="text-secondary-900 font-roboto">
-                        {item.chineseName}
-                      </p>
-                      <p className="text-secondary-900 font-roboto">
-                        {item.description}
-                      </p>
-                    </div>
-                    {item.price && (
-                      <p className="bg-primary h-8 w-min px-2 py-1 text-white">
-                        ${item.price.toFixed(2)}
-                      </p>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
-          ) : null}
-        </animated.div> */}
       </div>
     </div>
   );

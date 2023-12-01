@@ -43,7 +43,7 @@ const LocationSection = ({ locationURL }) => {
   ];
 
   return (
-    <div className="w-full bg-white text-gray-800 relative overflow-hidden">
+    <div className="w-full bg-white text-gray-800 relative overflow-hidden" id="hours">
       <img src={swishesSVG} alt="Swishes" className="z-5 absolute opacity-30" />
 
       <h2 className="text-3xl mt-8  text-primary font-bold mb-6 text-center">

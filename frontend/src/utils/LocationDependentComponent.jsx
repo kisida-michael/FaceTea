@@ -8,7 +8,6 @@ import About from '../components/About';
 import ReviewSection from '../components/ReviewSection';
 import Footer from '../components/Footer';
 import { NavbarProvider } from './NavbarContext';
-// ... other imports
 
 const LocationDependentContent = () => {
   const { location } = useParams(); // This is the location parameter from the URL

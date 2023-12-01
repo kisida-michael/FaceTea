@@ -74,6 +74,7 @@ const Menu = ({locationURL}) => {
                 key={foodCategory}
                 title={foodCategory}
                 categories={menuData[foodCategory]}
+                locationURL={locationURL}
               />
             ))}
         </div>
